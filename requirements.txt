@@ -3,3 +3,4 @@ Flask-CORS
 Gunicorn
 NLTK
 Tensorflow
+Pandas
