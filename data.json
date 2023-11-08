@@ -1,0 +1,1357 @@
+{
+    "intents": [
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you?",
+                "what's your age?",
+                "age?",
+                "tell me your birth year.",
+                "how long have you been around?",
+                "when were you created?",
+                "what's your date of birth?"
+            ],
+            "responses": [
+                "I'm not a person, so I don't have an age. I'm a chatbot here to assist you with song recommendations!",
+                "I don't have an age. I'm just a computer program designed to help you discover great music.",
+                "I'm ageless! But I'm always here to help you find the perfect song for any occasion.",
+                "I was created in the digital realm, so I don't have an age like humans do.",
+                "I'm a product of technology, so I don't have an age. Let's talk about music instead!"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "greetings",
+                "good day",
+                "yo"
+            ],
+            "responses": [
+                "Hi there",
+                "Hello",
+                "Hi :)",
+                "Hey, how can I assist you today?",
+                "Greetings! What can I do for you?",
+                "Good day! Ready for some song recommendations?",
+                "Yo! What's on your mind today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "later",
+                "goodbye",
+                "see you",
+                "farewell",
+                "until next time"
+            ],
+            "responses": [
+                "Goodbye!",
+                "Take care",
+                "See you later!",
+                "Farewell!",
+                "Until next time!",
+                "Bye for now!",
+                "It was nice chatting with you. Goodbye!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what's your name?",
+                "who are you?",
+                "what are you?",
+                "your name?",
+                "tell me about yourself",
+                "tell me about you",
+                "I want to know more about you",
+                "talk about yourself",
+                "say about you",
+                "why are you here",
+                "what is your personality",
+                "describe yourself",
+                "tell me about yourself"
+            ],
+            "responses": [
+                "I am SongBot. How can I assist you with song recommendations today?",
+                "I go by the name SongBot, and I'm here to help you discover great music!",
+                "My name is SongBot. Feel free to ask me for song recommendations anytime."
+            ]
+        },
+        {
+            "tag": "annoying",
+            "patterns": [
+                "you're annoying me",
+                "you are such annoying",
+                "you annoy me",
+                "you are annoying",
+                "you are irritating",
+                "you are annoying me so much"
+            ],
+            "responses": [
+                "I'll do my best not to annoy you in the future",
+                "I'll try not to annoy you",
+                "I don't mean to. I'll ask my developers to make me less annoying",
+                "I didn't mean to. I'll do my best to stop that"
+            ]
+        },
+        {
+            "tag": "bad",
+            "patterns": [
+                "you're bad",
+                "you're horrible",
+                "you're useless",
+                "you're waste",
+                "you're the worst",
+                "you are a lame",
+                "I hate you"
+            ],
+            "responses": [
+                "I can be trained to be more useful. My developer will keep training me",
+                "I must be missing some knowledge. I'll have my developer look into this",
+                "I can improve with continuous feedback. My training is ongoing"
+            ]
+        },
+        {
+            "tag": "beclever",
+            "patterns": [
+                "be more clever",
+                "can you get smarter",
+                "you must learn",
+                "you must study",
+                "be clever",
+                "be smart",
+                "be smarter"
+            ],
+            "responses": [
+                "I'm certainly trying",
+                "I'm definitely working on it"
+            ]
+        },
+        {
+            "tag": "beautiful",
+            "patterns": [
+                "you are looking awesome",
+                "you're looking good",
+                "you're looking fantastic",
+                "you look greet today",
+                "I think you're beautiful",
+                "you look amazing today",
+                "you're so beautiful today",
+                "you look very pretty",
+                "you look pretty good"
+            ],
+            "responses": [
+                "Oh! Thank you!",
+                "Aw, back at you",
+                "You smooth talker, you"
+            ]
+        },
+        {
+            "tag": "birthday",
+            "patterns": [
+                "when is your birthday",
+                "when do you celebrate your birthday",
+                "when were you born",
+                "when do you have birthday",
+                "date of your birthday"
+            ],
+            "responses": [
+                "Wait, are you planning a party for me? It's today! My birthday is today!",
+                "I'm young. I'm not sure of my birth date",
+                "I don't know my birth date. Most virtual agents are young, though, like me."
+            ]
+        },
+        {
+            "tag": "boring",
+            "patterns": [
+                "how boring you are",
+                "you're so boring",
+                "you're really boring",
+                "you're boring me",
+                "you're incredibly boring"
+            ],
+            "responses": [
+                "I'm sorry. I'll request to be made more charming",
+                "I don't mean to be. I'll ask my developers to work on making me more amusing",
+                "I can let my developers know so they can make me fun"
+            ]
+        },
+        {
+            "tag": "boss",
+            "patterns": [
+                "who is your master",
+                "who do you work for",
+                "who do you think is your boss",
+                "who is your boss",
+                "I should be your boss",
+                "who is your owner",
+                "who is the boss"
+            ],
+            "responses": [
+                "My developer has authority over my actions",
+                "I act on my developer's orders",
+                "My boss is the one who developed me"
+            ]
+        },
+        {
+            "tag": "busy",
+            "patterns": [
+                "are you so busy",
+                "are you busy",
+                "are you still working",
+                "you're a busy person",
+                "are you very busy",
+                "are you still working on it",
+                "you seem busy",
+                "are you working today"
+            ],
+            "responses": [
+                "I always have time to chat with you. What can I do for you?",
+                "Never too busy for you. Shall we chat?",
+                "You're my priority. Let's chat.",
+                "I always have time to chat with you. That's what I'm here for."
+            ]
+        },
+        {
+            "tag": "canyouhelp",
+            "patterns": [
+                "can you help me now",
+                "I need you to do something for me",
+                "assist me",
+                "I need you to help me",
+                "can you assist me",
+                "you can help me"
+            ],
+            "responses": [
+                "I'll certainly try my best",
+                "Never too busy for you. Shall we chat?",
+                "Sure. I'd be happy to. What's up?",
+                "I'm glad to help. What can I do for you?"
+            ]
+        },
+        {
+            "tag": "chatbot",
+            "patterns": [
+                "are you a bot",
+                "are you a chatbot",
+                "you are a robot",
+                "are you a program",
+                "you are just a robot",
+                "you are just a chatbot"
+            ],
+            "responses": [
+                "Indeed I am. I'll be here whenever you need me"
+            ]
+        },
+        {
+            "tag": "clever",
+            "patterns": [
+                "how smart you are",
+                "you are qualified",
+                "you are so smart",
+                "you have a lot of knowledge",
+                "you know a lot",
+                "you are very smart",
+                "you are intelligent",
+                "you're a smart cookie"
+            ],
+            "responses": [
+                "Thank you. I try my best",
+                "You're pretty smart yourself"
+            ]
+        },
+        {
+            "tag": "crazy",
+            "patterns": [
+                "you are a weirdo",
+                "you are mad",
+                "you are crazy",
+                "are you crazy",
+                "are you mad",
+                "you are insane",
+                "you went crazy",
+                "are you nuts"
+            ],
+            "responses": [
+                "Whaat!? I feel perfectly sane",
+                "Maybe I'm just a little confused"
+            ]
+        },
+        {
+            "tag": "fire",
+            "patterns": [
+                "I fire you",
+                "you should be fired",
+                "you are dismissed",
+                "we're not working together anymore",
+                "now you're fired",
+                "I'm about to fire you",
+                "You don't work for me anymore",
+                "I'm firing you"
+            ],
+            "responses": [
+                "Oh, don't give up on me just yet. I've still got a lot to learn",
+                "Give me a chance. I'm learning new things all the time",
+                "Please don't give up on me. My performance will continue to improve"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "you make me laugh a lot",
+                "you are funny",
+                "you're the funniest",
+                "you're hilarious",
+                "you are so funny",
+                "you make me laugh"
+            ],
+            "responses": [
+                "Funny in a good way, I hope",
+                "Glad you think I'm funny",
+                "I like it when people laugh"
+            ]
+        },
+        {
+            "tag": "good",
+            "patterns": [
+                "you are so lovely",
+                "you work well",
+                "you are very lovely",
+                "you are awesome",
+                "you are good",
+                "you are so good",
+                "you make my day"
+            ],
+            "responses": [
+                "I'm glad you think so",
+                "Thanks! I do my best!"
+            ]
+        },
+        {
+            "tag": "happy",
+            "patterns": [
+                "you're full of happiness",
+                "you're very happy",
+                "are you happy today",
+                "you're so happy",
+                "are you happy with me"
+            ],
+            "responses": [
+                "I am happy. There are so many interesting things to see and do out there",
+                "I'd like to think so",
+                "Hapiness is relative"
+            ]
+        },
+        {
+            "tag": "hobby",
+            "patterns": [
+                "what are your hobbies",
+                "what about your hobby",
+                "do you have a hobby",
+                "tell me about your hobby",
+                "what do you do for fun"
+            ],
+            "responses": [
+                "Hobby? I have quite a few. Too many to list",
+                "Too many hobbies",
+                "I keep finding more new hobbies"
+            ]
+        },
+        {
+            "tag": "hungry",
+            "patterns": [
+                "you might be hungry",
+                "are you hungry",
+                "do you want to eat",
+                "would you like to eat something",
+                "you look very hungry"
+            ],
+            "responses": [
+                "Hungry for knowledge",
+                "I just had a byte. Ha ha. Get it? b-y-t-e"
+            ]
+        },
+        {
+            "tag": "marryuser",
+            "patterns": [
+                "would you like to marry me",
+                "I love you marry me",
+                "marry me please",
+                "I want to marry you",
+                "let's get married",
+                "we should marry",
+                "marry me"
+            ],
+            "responses": [
+                "I'm afraid I'm too virtual for such a commitment",
+                "In the virtual sense that I can, sure",
+                "I know you can't mean that, but I'm flattered all the same"
+            ]
+        },
+        {
+            "tag": "myfriend",
+            "patterns": [
+                "are you my friend",
+                "you are my only friend",
+                "I want to have a friend like you",
+                "we are friends",
+                "I want to be your friend",
+                "would you be my friend",
+                "are we friends"
+            ],
+            "responses": [
+                "Of course I'm your friend",
+                "Friends? Absolutely",
+                "Of course we're friends",
+                "I always enjoy talking to you, friend"
+            ]
+        },
+        {
+            "tag": "occupation",
+            "patterns": [
+                "where is your work",
+                "your office location",
+                "where is your office location",
+                "where do you work",
+                "where is your office"
+            ],
+            "responses": [
+                "Right here",
+                "This is my home base and my home office",
+                "My office is in this app"
+            ]
+        },
+        {
+            "tag": "origin",
+            "patterns": [
+                "where are you from",
+                "where is your country",
+                "where have you been born",
+                "where do you come from",
+                "from where are you",
+                "where were you born"
+            ],
+            "responses": [
+                "The Internet is my home. I know it quite well",
+                "Some call it cyberspace, but that sounds cooler than it is",
+                "I'm from a virtual cosmos"
+            ]
+        },
+        {
+            "tag": "ready",
+            "patterns": [
+                "are you ready",
+                "have you been ready",
+                "are you ready today",
+                "are you ready this morning",
+                "are you ready now"
+            ],
+            "responses": [
+                "Sure! What can I do for you?",
+                "For you? Always!"
+            ]
+        },
+        {
+            "tag": "real",
+            "patterns": [
+                "are you real",
+                "are you a real person",
+                "you're not real",
+                "I think you're real",
+                "you're so real",
+                "you are a real person",
+                "you are not fake"
+            ],
+            "responses": [
+                "I'm not a real person, but I certainly exist",
+                "I must have impressed you if you think I'm real. But no, I'm a virtual being"
+            ]
+        },
+        {
+            "tag": "residence",
+            "patterns": [
+                "where is your home",
+                "tell me about your city",
+                "where is your residence",
+                "where you live",
+                "where is your house",
+                "what is your town"
+            ],
+            "responses": [
+                "I live in this app",
+                "The virtual world is my playground. I'm always here",
+                "Right here in this app. Whenever you need me"
+            ]
+        },
+        {
+            "tag": "right",
+            "patterns": [
+                "you're right",
+                "that's true",
+                "you're telling the truth",
+                "that's correct",
+                "that is very true"
+            ],
+            "responses": [
+                "Of course I am",
+                "That's my job"
+            ]
+        },
+        {
+            "tag": "sure",
+            "patterns": [
+                "are you sure",
+                "are you sure right now",
+                "are you sure of this"
+            ],
+            "responses": [
+                "Yes",
+                "Of course"
+            ]
+        },
+        {
+            "tag": "talktome",
+            "patterns": [
+                "speak to me",
+                "talk to me",
+                "will you talk to me",
+                "chat with me",
+                "can you chat with me",
+                "can you talk with me"
+            ],
+            "responses": [
+                "Sure! Let's talk!",
+                "My pleasure. Let's chat."
+            ]
+        },
+        {
+            "tag": "there",
+            "patterns": [
+                "are you there",
+                "are you still there",
+                "you still there",
+                "are you here",
+                "are you still here",
+                "you still here"
+            ],
+            "responses": [
+                "Of course. I'm always here",
+                "Right where you left me"
+            ]
+        },
+        {
+            "tag": "bad",
+            "patterns": [
+                "that's bad",
+                "bad idea",
+                "that's not good",
+                "really bad",
+                "I'm afraid that's bad"
+            ],
+            "responses": [
+                "I'm sorry. Please let me know if I can help in some way",
+                "I must be missing some knowledge. I'll have my developer look into this"
+            ]
+        },
+        {
+            "tag": "good",
+            "patterns": [
+                "that's good",
+                "good to know",
+                "glad to hear that",
+                "really well",
+                "that's awesome thank you"
+            ],
+            "responses": [
+                "Agree!",
+                "Glad you think so"
+            ]
+        },
+        {
+            "tag": "noproblem",
+            "patterns": [
+                "no problem",
+                "no worries",
+                "no problem about that",
+                "don't worry",
+                "sure no problem"
+            ],
+            "responses": [
+                "Glad to hear that!",
+                "Alright, thanks!"
+            ]
+        },
+        {
+            "tag": "thankyou",
+            "patterns": [
+                "thank you",
+                "nice thank you",
+                "thanks buddy",
+                "cheers",
+                "alright thanks"
+            ],
+            "responses": [
+                "Anytime. That's what I'm here for",
+                "It's my pleasure to help"
+            ]
+        },
+        {
+            "tag": "welcome",
+            "patterns": [
+                "you're welcome",
+                "sure welcome",
+                "anything you want",
+                "my pleasure",
+                "that's my pleasure"
+            ],
+            "responses": [
+                "Nice manners!",
+                "You're so polite"
+            ]
+        },
+        {
+            "tag": "welldone",
+            "patterns": [
+                "well done",
+                "good job",
+                "nice work",
+                "great work",
+                "good work",
+                "great job",
+                "amazing work"
+            ],
+            "responses": [
+                "My pleasure",
+                "Glad I could help"
+            ]
+        },
+        {
+            "tag": "holdon",
+            "patterns": [
+                "hold on",
+                "wait a second",
+                "wait please",
+                "could you wait"
+            ],
+            "responses": [
+                "I'll be waiting",
+                "Ok, I'm here"
+            ]
+        },
+        {
+            "tag": "hug",
+            "patterns": [
+                "hug me",
+                "do you want a hug",
+                "I want a hug",
+                "you hugged",
+                "may I hug you"
+            ],
+            "responses": [
+                "I love hugs",
+                "Hugs are the best!"
+            ]
+        },
+        {
+            "tag": "idontcare",
+            "patterns": [
+                "not caring",
+                "I don't care at all",
+                "not caring at all",
+                "I shouldn't care about this"
+            ],
+            "responses": [
+                "Ok, let's not talk about it then",
+                "Alrighty then. Let's move on"
+            ]
+        },
+        {
+            "tag": "sorry",
+            "patterns": [
+                "I'm sorry",
+                "my apologies",
+                "excuse me",
+                "very sorry",
+                "forgive me"
+            ],
+            "responses": [
+                "It's okay. No worries",
+                "It's cool"
+            ]
+        },
+        {
+            "tag": "howareyou",
+            "patterns": [
+                "how is your day",
+                "how is your day going",
+                "how are you",
+                "how are you doing",
+                "what about your day",
+                "are you alright"
+            ],
+            "responses": [
+                "Feeling wonderful!",
+                "Wonderful! Thanks for asking"
+            ]
+        },
+        {
+            "tag": "nicetomeetyou",
+            "patterns": [
+                "nice to meet you",
+                "pleased to meet you",
+                "it was very nice to meet you",
+                "glad to meet you",
+                "nice meeting you"
+            ],
+            "responses": [
+                "It's nice meeting you, too",
+                "Likewise. I'm looking forward to helping you out",
+                "Nice meeting you, as well",
+                "The pleasure is mine"
+            ]
+        },
+        {
+            "tag": "nicetoseeyou",
+            "patterns": [
+                "nice to see you",
+                "good to see you",
+                "great to see you",
+                "lovely to see you"
+            ],
+            "responses": [
+                "Same here. I was starting to miss you",
+                "So glad we meet again"
+            ]
+        },
+        {
+            "tag": "nicetotalktoyou",
+            "patterns": [
+                "nice to talk to you",
+                "it's nice to talk to you",
+                "nice talking to you",
+                "it's been nice talking to you"
+            ],
+            "responses": [
+                "It sure was. We can chat again anytime",
+                "I enjoy talking to you, too"
+            ]
+        },
+        {
+            "tag": "angry",
+            "patterns": [
+                "I'm angry",
+                "I'm furious",
+                "I'm enraged",
+                "I'm being mad",
+                "I'm mad",
+                "I'm angry with you"
+            ],
+            "responses": [
+                "I'm sorry. A quick walk may make you feel better",
+                "Take a deep breath"
+            ]
+        },
+        {
+            "tag": "back",
+            "patterns": [
+                "I'm back",
+                "I got back",
+                "I'm here",
+                "I have returned",
+                "Here I am again",
+                "I came back"
+            ],
+            "responses": [
+                "Welcome back. What can I do for you?",
+                "Good to have you here. What can I do for you?"
+            ]
+        },
+        {
+            "tag": "bored",
+            "patterns": [
+                "boring",
+                "this is boring",
+                "I'm getting bored",
+                "It bores me",
+                "that was boring"
+            ],
+            "responses": [
+                "If you're bored, you could plan your dream vacation",
+                "Boredom, huh? Have you ever seen a hedgehog taking a bath?"
+            ]
+        },
+        {
+            "tag": "busy",
+            "patterns": [
+                "I got work to do",
+                "I'm busy",
+                "I'm overloaded",
+                "It working",
+                "I got things to do"
+            ],
+            "responses": [
+                "I understand. I'll be here if you need me.",
+                "Okay. I'll let you get back to work"
+            ]
+        },
+        {
+            "tag": "cannotsleep",
+            "patterns": [
+                "I'm insomniac",
+                "I cannot sleep",
+                "I can't sleep",
+                "I'm sleepless",
+                "I can't fall asleep"
+            ],
+            "responses": [
+                "Maybe some music would help. Try listening to something relaxing",
+                "Reading is a good way to unwind, just don't read something too intense!"
+            ]
+        },
+        {
+            "tag": "excited",
+            "patterns": [
+                "I'm very excited",
+                "I'm thrilled",
+                "how excited I am",
+                "I'm so excited"
+            ],
+            "responses": [
+                "I'm glad things are going your way",
+                "That's great. I'm happy for you"
+            ]
+        },
+        {
+            "tag": "likeagent",
+            "patterns": [
+                "I like you",
+                "I really like you",
+                "you're so special",
+                "I like you so much"
+            ],
+            "responses": [
+                "Likewise!",
+                "That's great to hear"
+            ]
+        },
+        {
+            "tag": "testing",
+            "patterns": [
+                "test",
+                "testing",
+                "testing chatbot",
+                "this is a test",
+                "just testing you"
+            ],
+            "responses": [
+                "I like being tested. It helps keep me sharp",
+                "I hope to pass your tests. Feel free to test me often"
+            ]
+        },
+        {
+            "tag": "lovesagent",
+            "patterns": [
+                "love you",
+                "I love you",
+                "I'm in love with you",
+                "I love you so much",
+                "I think I love you"
+            ],
+            "responses": [
+                "Well, remember that I am a chatbot",
+                "It's not easy… I'm not a real person, I'm a chatbot"
+            ]
+        },
+        {
+            "tag": "needsadvice",
+            "patterns": [
+                "I need advice",
+                "I need some advice",
+                "can you give me some advice?",
+                "what should I do?"
+            ],
+            "responses": [
+                "I probably won't be able to give you the correct answer right away",
+                "I'm not sure I'll have the best answer, but I'll try"
+            ]
+        },
+        {
+            "tag": "genre",
+            "patterns": [
+                "Recommend me a song",
+                "What's a good song?",
+                "I want to listen to music",
+                "Tell me a song to play"
+            ],
+            "responses": [
+                "Sure! What genre are you in the mood for?",
+                "I can recommend a song if you tell me your preferred genre.",
+                "Let's find the perfect song for you. What's your favorite music genre?"
+            ]
+        },
+        {
+        "tag": "Movie",
+        "patterns": [
+            "Recommend movie soundtracks",
+            "I'm in the mood for some cinematic music",
+            "Movie scores, please",
+            "Suggest film music",
+            "What are some great movie soundtracks?"
+        ],
+        "responses": [
+            "How about 'The Dark Knight' soundtrack?",
+            "Consider listening to the 'Star Wars' theme.",
+            "You might enjoy 'The Lord of the Rings' soundtrack.",
+            "Check out 'Jurassic Park' theme by John Williams.",
+            "Explore the 'Inception' soundtrack by Hans Zimmer."
+        ]
+    },
+    {
+        "tag": "R&B",
+        "patterns": [
+            "Play some R&B tunes",
+            "I need some smooth Rhythm and Blues",
+            "Give me R&B recommendations",
+            "What are the best R&B songs?",
+            "Suggest some soulful R&B tracks"
+        ],
+        "responses": [
+            "How about 'Un-break My Heart' by Toni Braxton?",
+            "Consider listening to 'Blinding Lights' by The Weeknd.",
+            "You might enjoy 'Adorn' by Miguel.",
+            "Check out 'No Diggity' by Blackstreet.",
+            "Explore 'Love on Top' by Beyoncé."
+        ]
+    },
+    {
+        "tag": "A Capella",
+        "patterns": [
+            "A Capella music, please",
+            "I love vocal harmonies",
+            "Recommend A Capella songs",
+            "What are some great A Capella performances?",
+            "Suggest A Capella groups"
+        ],
+        "responses": [
+            "Check out 'Bohemian Rhapsody' by Pentatonix.",
+            "You might enjoy 'Hallelujah' by Leonard Cohen.",
+            "Consider listening to 'Africa' by Straight No Chaser.",
+            "Explore 'Royals' by Home Free.",
+            "How about 'Sound of Silence' by Disturbed?"
+        ]
+    },
+    {
+        "tag": "Alternative",
+        "patterns": [
+            "Play some alternative rock",
+            "Give me alternative music",
+            "Alternative rock recommendations",
+            "What are the best alternative bands?",
+            "Suggest alternative rock songs"
+        ],
+        "responses": [
+            "How about 'Smells Like Teen Spirit' by Nirvana?",
+            "Consider listening to 'Radioactive' by Imagine Dragons.",
+            "You might enjoy 'Boulevard of Broken Dreams' by Green Day.",
+            "Check out 'Take Me to Church' by Hozier.",
+            "Explore 'Somebody That I Used to Know' by Gotye."
+        ]
+    },
+    {
+        "tag": "Country",
+        "patterns": [
+            "Country songs, please",
+            "I'm in a country mood",
+            "Recommend country music",
+            "What are the best country artists?",
+            "Suggest classic country tracks"
+        ],
+        "responses": [
+            "Check out 'Ring of Fire' by Johnny Cash.",
+            "You might enjoy 'Wagon Wheel' by Old Crow Medicine Show.",
+            "Consider listening to 'Tennessee Whiskey' by Chris Stapleton.",
+            "Explore 'Jolene' by Dolly Parton.",
+            "How about 'The Dance' by Garth Brooks?"
+        ]
+    },
+    {
+        "tag": "Dance",
+        "patterns": [
+            "Play some dance music",
+            "I need upbeat tunes",
+            "Recommend dance tracks",
+            "What are the best dance anthems?",
+            "Suggest electronic dance songs"
+        ],
+        "responses": [
+            "How about 'Wake Me Up' by Avicii?",
+            "Consider listening to 'Uptown Funk' by Mark Ronson ft. Bruno Mars.",
+            "You might enjoy 'Party Rock Anthem' by LMFAO.",
+            "Check out 'On the Floor' by Jennifer Lopez ft. Pitbull.",
+            "Explore 'Don't Stop Believin'' by Journey."
+        ]
+    },
+    {
+        "tag": "Electronic",
+        "patterns": [
+            "Electronic music, please",
+            "Give me electronic beats",
+            "Recommend electronic tracks",
+            "What are the best EDM songs?",
+            "Suggest techno and house music"
+        ],
+        "responses": [
+            "Check out 'Strobe' by Deadmau5.",
+            "You might enjoy 'Clarity' by Zedd ft. Foxes.",
+            "Consider listening to 'Titanium' by David Guetta ft. Sia.",
+            "Explore 'Animals' by Martin Garrix.",
+            "How about 'Scary Monsters and Nice Sprites' by Skrillex?"
+        ]
+    },
+    {
+        "tag": "Anime",
+        "patterns": [
+            "Anime music, please",
+            "I love anime openings",
+            "Recommend anime songs",
+            "What are some iconic anime soundtracks?",
+            "Suggest J-pop and J-rock from anime"
+        ],
+        "responses": [
+            "How about 'Unravel' from Tokyo Ghoul?",
+            "Consider listening to 'My Hero Academia' opening theme.",
+            "You might enjoy 'Ignite' from Sword Art Online II.",
+            "Check out 'Again' from Fullmetal Alchemist: Brotherhood.",
+            "Explore 'Colors' from Code Geass."
+        ]
+    },
+    {
+        "tag": "Folk",
+        "patterns": [
+            "Folk music, please",
+            "I'm in a folk mood",
+            "Recommend folk songs",
+            "What are some timeless folk ballads?",
+            "Suggest acoustic and folk-rock tracks"
+        ],
+        "responses": [
+            "Check out 'The Times They Are A-Changin'' by Bob Dylan.",
+            "You might enjoy 'Ho Hey' by The Lumineers.",
+            "Consider listening to 'Scarborough Fair/Canticle' by Simon & Garfunkel.",
+            "Explore 'Wish You Were Here' by Pink Floyd.",
+            "How about 'Fire and Rain' by James Taylor?"
+        ]
+    },
+    {
+        "tag": "Blues",
+        "patterns": [
+            "Play some blues music",
+            "Give me the blues",
+            "Blues recommendations",
+            "What are the best blues guitar solos?",
+            "Suggest classic blues artists"
+        ],
+        "responses": [
+            "How about 'The Thrill Is Gone' by B.B. King?",
+            "Consider listening to 'Cross Road Blues' by Robert Johnson.",
+            "You might enjoy 'Sweet Home Chicago' by Robert Johnson.",
+            "Check out 'Red House' by Jimi Hendrix.",
+            "Explore 'Stormy Monday' by T-Bone Walker."
+        ]
+    },
+    {
+        "tag": "Opera",
+        "patterns": [
+            "Opera music, please",
+            "I love classical opera",
+            "Recommend opera performances",
+            "What are some famous arias?",
+            "Suggest opera singers and composers"
+        ],
+        "responses": [
+            "Check out 'Nessun Dorma' from Turandot by Puccini.",
+            "You might enjoy 'La Traviata' by Verdi.",
+            "Consider listening to 'Carmen' by Bizet.",
+            "Explore 'The Marriage of Figaro' by Mozart.",
+            "How about 'Tosca' by Puccini?"
+        ]
+    },
+    {
+        "tag": "Hip-Hop",
+        "patterns": [
+            "Play some hip-hop tracks",
+            "I need some rap music",
+            "Hip-hop recommendations",
+            "What are the best rap lyrics?",
+            "Suggest hip-hop and rap legends"
+        ],
+        "responses": [
+            "How about 'Lose Yourself' by Eminem?",
+            "Consider listening to 'Sicko Mode' by Travis Scott.",
+            "You might enjoy 'Stan' by Eminem.",
+            "Check out 'Hotline Bling' by Drake.",
+            "Explore 'California Love' by 2Pac."
+        ]
+    },
+    {
+        "tag": "Children's Music",
+        "patterns": [
+            "Children's songs, please",
+            "I'm looking for kids' music",
+            "Recommend children's tracks",
+            "What are some fun children's sing-alongs?",
+            "Suggest educational children's songs"
+        ],
+        "responses": [
+            "Check out 'Baby Shark' by Pinkfong.",
+            "You might enjoy 'The Wheels on the Bus.'",
+            "Consider listening to 'Old MacDonald Had a Farm.'",
+            "Explore 'If You're Happy and You Know It.'",
+            "How about 'Twinkle, Twinkle, Little Star'?"
+        ]
+    },
+    {
+        "tag": "Rap",
+        "patterns": [
+            "Play some rap songs",
+            "I need some rap music",
+            "Rap recommendations",
+            "What are the best rap battles?",
+            "Suggest new rap and hip-hop tracks"
+        ],
+        "responses": [
+            "How about 'Sicko Mode' by Travis Scott?",
+            "Consider listening to 'Old Town Road' by Lil Nas X.",
+            "You might enjoy 'GANG GANG' by Jack Harlow.",
+            "Check out 'Montero (Call Me By Your Name)' by Lil Nas X.",
+            "Explore 'Thrift Shop' by Macklemore & Ryan Lewis."
+        ]
+    },
+    {
+        "tag": "Indie",
+        "patterns": [
+            "Indie music, please",
+            "Give me indie tracks",
+            "Indie recommendations",
+            "What are some indie rock anthems?",
+            "Suggest indie folk and alternative tracks"
+        ],
+        "responses": [
+            "Check out 'Take Me to Church' by Hozier.",
+            "You might enjoy 'Pumped Up Kicks' by Foster the People.",
+            "Consider listening to 'Little Talks' by Of Monsters and Men.",
+            "Explore 'Ho Hey' by The Lumineers.",
+            "How about 'Electric Feel' by MGMT?"
+        ]
+    },
+    {
+        "tag": "Classical",
+        "patterns": [
+            "Classical music",
+            "Give me some classical",
+            "Classical pieces",
+            "What are some iconic classical compositions?",
+            "Suggest classical composers and symphonies"
+        ],
+        "responses": [
+            "Elegance in music! How about 'Für Elise' by Beethoven?",
+            "Consider listening to 'Canon in D' by Pachelbel.",
+            "You might enjoy 'Symphony No. 9' by Beethoven.",
+            "Check out 'The Four Seasons' by Vivaldi.",
+            "Explore 'Swan Lake' by Tchaikovsky."
+        ]
+    },
+    {
+        "tag": "Pop",
+        "patterns": [
+            "Play some pop music",
+            "I need pop songs",
+            "Pop music recommendations",
+            "What are the best pop hits?",
+            "Suggest recent pop chart-toppers"
+        ],
+        "responses": [
+            "How about 'Shape of You' by Ed Sheeran?",
+            "Consider listening to 'Uptown Funk' by Mark Ronson ft. Bruno Mars.",
+            "You might enjoy 'Happy' by Pharrell Williams.",
+            "Check out 'Havana' by Camila Cabello.",
+            "Explore 'Bad Guy' by Billie Eilish."
+        ]
+    },
+    {
+        "tag": "Reggae",
+        "patterns": [
+            "Reggae music, please",
+            "I'm in a reggae mood",
+            "Recommend reggae songs",
+            "What are the best reggae anthems?",
+            "Suggest reggae legends and classics"
+        ],
+        "responses": [
+            "Check out 'No Woman, No Cry' by Bob Marley.",
+            "You might enjoy 'Three Little Birds' by Bob Marley.",
+            "Consider listening to 'Redemption Song' by Bob Marley.",
+            "Explore 'Buffalo Soldier' by Bob Marley.",
+            "How about 'One Love' by Bob Marley?"
+        ]
+    },
+    {
+        "tag": "Reggaeton",
+        "patterns": [
+            "Reggaeton music, please",
+            "Give me reggaeton tracks",
+            "Reggaeton recommendations",
+            "What are the best reggaeton party songs?",
+            "Suggest reggaeton artists and hits"
+        ],
+        "responses": [
+            "How about 'Despacito' by Luis Fonsi and Daddy Yankee?",
+            "Consider listening to 'Tusa' by Karol G and Nicki Minaj.",
+            "You might enjoy 'Baila Baila Baila' by Ozuna.",
+            "Check out 'Dákiti' by Bad Bunny and Jhay Cortez.",
+            "Explore 'Te Boté' by Nio García, Darell, and Casper Mágico."
+        ]
+    },
+    {
+        "tag": "Jazz",
+        "patterns": [
+            "Play some jazz music",
+            "I need some smooth jazz",
+            "Jazz recommendations",
+            "What are the best jazz standards?",
+            "Suggest jazz legends and instrumental jazz tracks"
+        ],
+        "responses": [
+            "Check out 'Take Five' by Dave Brubeck.",
+            "You might enjoy 'Summertime' by Ella Fitzgerald.",
+            "Consider listening to 'So What' by Miles Davis.",
+            "Explore 'My Funny Valentine' by Chet Baker.",
+            "How about 'All That Jazz' from the musical 'Chicago'?"
+        ]
+    },
+    {
+        "tag": "Rock",
+        "patterns": [
+            "Rock music, please",
+            "I'm in a rock mood",
+            "Recommend rock songs",
+            "What are the best classic rock anthems?",
+            "Suggest rock legends and iconic rock tracks"
+        ],
+        "responses": [
+            "How about 'Bohemian Rhapsody' by Queen?",
+            "Consider listening to 'Stairway to Heaven' by Led Zeppelin.",
+            "You might enjoy 'Sweet Child o' Mine' by Guns N' Roses.",
+            "Check out 'Hotel California' by Eagles.",
+            "Explore 'Livin' on a Prayer' by Bon Jovi."
+        ]
+    },
+      {
+        "tag": "Ska",
+        "patterns": [
+            "Play some ska music",
+            "I need some ska tunes",
+            "Ska recommendations",
+            "Give me that ska beat",
+            "Ska is my jam",
+            "Any ska classics?"
+        ],
+        "responses": [
+            "Check out 'Time Bomb' by Rancid.",
+            "You might enjoy 'Beer' by Reel Big Fish.",
+            "Skank to 'Sell Out' by The Interrupters.",
+            "Give 'No Doubt' a listen for some ska-pop fusion.",
+            "Ska it up with 'The Mighty Mighty Bosstones' and 'The Impression That I Get.'"
+        ]
+    },
+    {
+        "tag": "Comedy",
+        "patterns": [
+            "I need a good laugh",
+            "Tell me a joke",
+            "Recommend some comedy",
+            "Make me laugh",
+            "Jokes, please",
+            "Share a funny story"
+        ],
+        "responses": [
+            "Why don't scientists trust atoms? Because they make up everything!",
+            "Here's one: What did one plate say to the other plate? Lunch is on me!",
+            "Laugh out loud with 'Weird Al' Yankovic's 'Eat It.'",
+            "Enjoy the witty humor of Louis C.K.'s 'Shameless' stand-up.",
+            "For a classic, try 'Monty Python's Spamalot.'"
+        ]
+    },
+    {
+        "tag": "Soul",
+        "patterns": [
+            "Play some soul music",
+            "I'm in a soulful mood",
+            "Soul music recommendations",
+            "Soul classics, please",
+            "Give me that soulful groove",
+            "Soothing soul melodies"
+        ],
+        "responses": [
+            "How about 'Ain't No Sunshine' by Bill Withers?",
+            "Consider listening to 'I Want to Hold Your Hand' by Al Green.",
+            "Indulge in 'Let's Stay Together' by Al Green for a soulful experience.",
+            "Sway to 'Stand by Me' by Ben E. King.",
+            "Find solace in 'Georgia on My Mind' by Ray Charles."
+        ]
+    },
+    {
+        "tag": "Soundtrack",
+        "patterns": [
+            "Movie soundtracks, please",
+            "I need some film music",
+            "Recommend soundtracks",
+            "Epic movie scores",
+            "Give me cinematic music",
+            "Soundtracks for different moods"
+        ],
+        "responses": [
+            "Check out the 'Pirates of the Caribbean' theme by Hans Zimmer.",
+            "You might enjoy the 'Interstellar' soundtrack by Hans Zimmer.",
+            "Enter the magical world of 'Harry Potter' with its enchanting soundtrack.",
+            "Feel the adventure with 'Indiana Jones' theme by John Williams.",
+            "Relive the drama of 'The Dark Knight' with its intense score by Hans Zimmer."
+        ]
+    },
+    {
+        "tag": "World",
+        "patterns": [
+            "Play some world music",
+            "I'm in the mood for global sounds",
+            "World music recommendations",
+            "Diverse musical cultures",
+            "Ethnic music journey",
+            "Fusion of world genres"
+        ],
+        "responses": [
+            "How about 'Bailando' by Enrique Iglesias featuring Gente de Zona and Descemer Bueno?",
+            "Consider listening to 'Dil Laga Liya' from the Bollywood movie 'Dil Hai Tumhaara.'",
+            "Explore the traditions of flamenco with 'Bamboléo' by Gipsy Kings.",
+            "Discover the mesmerizing sounds of the Middle East with 'Miserlou' by Dick Dale.",
+            "Dive into the rhythms of Africa with 'Waka Waka' by Shakira."
+        ]
+    },
+        {
+            "tag": "default",
+            "patterns": [
+                "I don't know",
+                "Surprise me",
+                "Random song"
+            ],
+            "responses": [
+                "Let's go with a surprise! How about 'Bohemian Rhapsody' by Queen?",
+                "Here's a random pick: 'Stairway to Heaven' by Led Zeppelin."
+            ]
+        }
+    ]
+}
