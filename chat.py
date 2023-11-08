@@ -68,7 +68,7 @@ def pred_class(text, vocab, labels):
     yp.sort(key=lambda x: x[1], reverse=True)
     newList = []
     for r in yp:
-        newList.append(labels[r[0])
+        newList.append(labels[r[0]])
     return newList
 
 def getRes(firstlist, fJson):
